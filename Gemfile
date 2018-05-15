@@ -11,7 +11,13 @@ gem 'bootstrap-sass', '3.3.1'
 gem 'devise'
 
 gem 'jquery-rails'
+
 gem 'jquery-ui-rails'
+
+gem 'faker', '1.1.2'
+
+gem 'will_paginate', '3.1.5'
+gem 'will_paginate-bootstrap', '1.0.1'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
