@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       :registrations => "registrations"
     }
     resources :users, only: [:show, :index, :destroy]
+    resources :microposts, only: [:create, :destroy]
 
   root 'home#home'
   get 'help' => 'home#help'
